@@ -58,5 +58,4 @@ class Lexer:
             return Token('EOF')
 
         return self.match_token()
-        lexer = Lexer('x = 2 + 3 * (4 / 2)')
 
